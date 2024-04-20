@@ -9,4 +9,63 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.intro-chunk {
+  padding-top: 64px;
+  padding-right: 50%;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}
+
+.intro-chunk p {
+  font-weight: 400;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: hsl(0deg, 0%, 60%) solid 8px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.card {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  border-bottom: hsl(0deg, 0%, 60%) solid 8px;
+}
+
+.card p {
+  padding-left: 32px;
+  padding-right: 32px;
+  font-weight: 500;
+}
+
+.indented-heading {
+  font-size: 1.75rem;
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  margin: 0;
+  padding: 16px 32px 16px 40px;
+  margin-left: -8px;
+  border-bottom: hsl(45deg, 100%, 40%) solid 8px;
+}
